@@ -12,7 +12,7 @@ hbs.registerPartials(partialspath)
 app.get('/', (req, res) => {
   const data = {
     title: 'Home page',
-    message: 'Hello, Handlebars!',
+    message: 'My name is ',
     first_name: 'Rubel',
     last_name: 'Parvaz',
   };
