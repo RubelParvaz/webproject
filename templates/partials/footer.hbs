@@ -1,0 +1,330 @@
+<footer class="footer-wrapper">
+    <div class="container customContainer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footerTop">
+                    <div class="linkBlock">
+                        <h6>Quick Links</h6>
+                        <ul class="footerNav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Showroom</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">For Studios and Resellers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">App</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="linkBlock">
+                        <h6>More</h6>
+                        <ul class="footerNav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Q&amp;A</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Checkout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Site Notice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Shipping</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="linkBlock linkBlockB">
+                        <h6>Important Links</h6>
+                        <ul class="footerNav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Terms and Conditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Cancellation Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Term and conditions for online sales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Website Terms of Use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Copyright Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CCPA Notice for CA Residents</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="linkBlock linkBlockB">
+                        <h6>Contact</h6>
+                        <div class="contactInfo">
+                            <span><img src="assets/images/phone.png" alt="" /></span>
+                            <div>
+                                <p>Call Us</p>
+                                <h6>01 897 456 1234</h6>
+                            </div>
+                        </div>
+                        <div class="contactInfo">
+                            <span><img src="assets/images/envelop.png" alt="" /></span>
+                            <div>
+                                <p>Mail Us</p>
+                                <h6>info@flowrow.fit</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linkBlock linkBlockB playstorebg">
+                        <h6>Download App</h6>
+                        <a href="#"><img src="assets/images/appstore.png" alt="" /></a>
+                        <a href="#"><img src="assets/images/playstore.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <div class="container customContainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyInn">
+                        <p>&copy; FlowRow®. 2020 All rights reserved.</p>
+                        <div class="footsocial">
+                            <a href=""><img src="assets/images/fb.png" alt="" /></a>
+                            <a href=""><img src="assets/images/linkdin.png" alt="" /></a>
+                            <a href=""><img src="assets/images/insta.png" alt="" /></a>
+                            <a href=""><img src="assets/images/ytube.png" alt="" /></a>
+                            <a href=""><img src="assets/images/tiktok.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+
+
+<!--    <script src="js/jquery-3.2.1.slim.min.js"></script>-->
+<!--
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+-->
+<script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+
+
+
+<script>
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+    });
+    wow.init();
+    document.getElementById('moar').onclick = function () {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+    };
+
+</script>
+<script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 20) {
+            $('.fixedhead').addClass('stickytop');
+        } else {
+            $('.fixedhead').removeClass('stickytop');
+        }
+    });
+    $('.dropdown-menu a').on('click', function () {
+        var getValue = $(this).text();
+        $('.dropSelect').text(getValue);
+    });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#show_hide_password a").on('click', function (event) {
+            event.preventDefault();
+            if ($('#show_hide_password input').attr("type") == "text") {
+                $('#show_hide_password input').attr('type', 'password');
+                $('#show_hide_password i').addClass("fa-eye-slash");
+                $('#show_hide_password i').removeClass("fa-eye");
+            } else if ($('#show_hide_password input').attr("type") == "password") {
+                $('#show_hide_password input').attr('type', 'text');
+                $('#show_hide_password i').removeClass("fa-eye-slash");
+                $('#show_hide_password i').addClass("fa-eye");
+            }
+        });
+        $("#show_hide_passwordB a").on('click', function (event) {
+            event.preventDefault();
+            if ($('#show_hide_passwordB input').attr("type") == "text") {
+                $('#show_hide_passwordB input').attr('type', 'password');
+                $('#show_hide_passwordB i').addClass("fa-eye-slash");
+                $('#show_hide_passwordB i').removeClass("fa-eye");
+            } else if ($('#show_hide_passwordB input').attr("type") == "password") {
+                $('#show_hide_passwordB input').attr('type', 'text');
+                $('#show_hide_passwordB i').removeClass("fa-eye-slash");
+                $('#show_hide_passwordB i').addClass("fa-eye");
+            }
+        });
+
+
+
+    });
+
+</script>
+<script>
+    $(window).resize(function () {
+        if ($(window).width() < 1299) {
+            $('.respSec').appendTo('.resNav');
+        } else {
+            $('.respSec').appendTo('.headRight');
+        }
+    });
+    $(document).ready(function () {
+        if ($(window).width() < 1299) {
+            $('.respSec').appendTo('.resNav');
+        } else {
+            $('.respSec').appendTo('.headRight');
+        }
+    });
+
+</script>
+<script>
+    $(document).ready(function () {
+        var video1 = document.getElementById("ban_video");
+        video1.currentTime = 0;
+        $(".mute-bt").click(function () {
+            if ($(this).hasClass("stop")) {
+                var ban_video = document.getElementById("ban_video");
+                $("#ban_video").prop('muted', false);
+                $(this).removeClass("stop");
+            } else {
+                var ban_video = document.getElementById("ban_video");
+                $("#ban_video").prop('muted', true);
+                $(this).addClass("stop");
+            }
+        });
+
+        $(".play-bt").click(function () {
+            $(".play-bt").hide();
+            $(".pause-bt").show();
+            var ban_video = document.getElementById("ban_video");
+            if ($(".stop-bt").hasClass("active")) {
+                ban_video.currentTime = 0;
+            }
+            ban_video.play();
+        });
+        $(".pause-bt").click(function () {
+            $(".play-bt").show();
+            $(".pause-bt").hide();
+            $(".pause-bt").addClass("active");
+            $(".stop-bt").removeClass("active");
+            var ban_video = document.getElementById("ban_video");
+            ban_video.pause();
+        });
+        $(".stop-bt").click(function () {
+            $(".play-bt").show();
+            $(".pause-bt").hide();
+            $(".pause-bt").removeClass("active");
+            $(".stop-bt").addClass("active");
+            var ban_video = document.getElementById("ban_video");
+            stop
+            ban_video.pause();
+        });
+    });
+
+</script>
+<script>
+    var videoCarousal = $("#videoCarousal");
+
+    videoCarousal.owlCarousel({
+        loop: true,
+        nav: false,
+        items: 1,
+        margin: 0,
+        autoplay: false,
+        dots: true,
+        animateOut: 'slideOutUp',
+        animateIn: 'slideInUp',
+        autoplayTimeout: 85000,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            1170: {
+                items: 1
+            }
+        }
+    });
+
+    var testimonial = $("#testimonial");
+
+    testimonial.owlCarousel({
+        loop: true,
+        nav: true,
+        items: 1,
+        margin: 0,
+        autoplay: true,
+        dots: false,
+        autoplayTimeout: 85000,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            1170: {
+                items: 1
+            }
+        }
+    });
+
+</script>
+
+
+
+
+</html>
